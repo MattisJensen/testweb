@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7fa;
+    color: #00796b;
+    margin: 0;
+    padding: 0;
+}
+
+header.hero {
+    background-color: #0288d1;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+header.hero h1 {
+    font-size: 3em;
+}
+
+header.hero p {
+    font-size: 1.2em;
+}
+
+header.hero img {
+    width: 300px;
+    height: auto;
+    margin: 20px;
+}
+
+header.hero button {
+    background-color: #ff7043;
+    border: none;
+    padding: 15px 30px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.features {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.features .feature {
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px 20px;
+}
+
+.gallery img {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #0288d1;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d40;
+    color: white;
+}
